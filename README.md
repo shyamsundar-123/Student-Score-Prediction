@@ -27,3 +27,30 @@ This is a *Supervised Machine Learning* project that uses *Simple Linear Regress
    ```bash
    git clone https://github.com/your-username/Student-Score-Prediction.git
    cd Student-Score-Prediction
+   
+## Usage
+- The script trains a model using a given dataset.
+- Users can input custom study hours to predict expected scores.
+
+## Model Explanation
+- **Algorithm Used:** Simple **Linear Regression.**
+- **Training:** The model is trained on historical student score data.
+- **Prediction:** Given new input (study hours), it predicts the expected score.
+
+## Results
+- The model successfully predicts student scores with reasonable accuracy.
+- **Example Prediction:**
+    - **Input:** 5 hours of study
+    - **Predicted Score:** ~50 marks
+
+## Technologies Used
+- Python
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+## Contributing
+Contributions are welcome! Feel free to **fork** this repository and submit a pull request.
+
+## License
+This project is licensed under the **MIT License.**
